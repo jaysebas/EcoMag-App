@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EcoMag App - Reportar Residuo</title>
+  <link rel="stylesheet" href="stylereport.css">
+  
+  <style>
+    /* Reset de márgenes y paddings para evitar inconsistencias */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Fondo de la página y estilo general */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4; /* Fondo claro */
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0 20px; /* Añadir algo de espacio en los laterales */
+    }
+
+    /* Estilos del formulario */
+    .form-container {
+      max-width: 400px;
+      width: 100%;
+      margin: 40px auto;
+      background-color: #ffffff; /* Fondo blanco para el formulario */
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+
+    /* Título del formulario */
+    .form-container h2 {
+      color: #2e8b57; /* Verde para el título */
+      margin-bottom: 20px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    /* Estilo de los campos de texto */
+    .form-container input,
+    .form-container textarea,
+    .form-container button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    /* Estilo del botón */
+    .form-container button {
+      background-color: #2e8b57;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #256d45;
+    }
+
+    /* Estilo para el campo de archivo */
+    .form-container input[type="file"] {
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    /* Ajustes de diseño para dispositivos móviles */
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="form-container">
+    <h2>Formulario de Reporte</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="text" placeholder="Tipo de residuo (plástico, orgánico, etc.)" required>
+      <input type="text" placeholder="Ubicación (barrio, dirección, etc.)" required>
+      <textarea placeholder="Descripción del caso (opcional)" rows="4"></textarea>
+      <input type="file" accept="image/*">
+      <button type="submit">Enviar Reporte</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
