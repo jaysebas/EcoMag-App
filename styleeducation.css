@@ -1,72 +1,73 @@
-/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Tipografía y fondo general */
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2fdf5;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  /* Contenedor del encabezado */
-  .container {
-    text-align: center;
-    padding: 40px 20px 20px;
-  }
-  
-  .logo {
-    font-size: 36px;
-    font-weight: bold;
-    color: #2e8b57;
-    margin-bottom: 10px;
-  }
-  
-  .subtitle {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
-  /* Botón de regreso */
-  .btn-green {
-    display: inline-block;
-    margin: 30px auto;
-    padding: 12px 20px;
-    background-color: #2e8b57;
-    color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-green:hover {
-    background-color: #256d45;
-  }
-  
-  /* Sección educativa */
-  .edu-section {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    background: #f7fcf9;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.05);
-  }
-  
-  .edu-section h3 {
-    color: #2e8b57;
-    margin-top: 20px;
-  }
-  
-  .edu-section p {
-    text-align: justify;
-    font-size: 15px;
-    margin-top: 10px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.logo {
+  font-size: 36px;
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.edu-section {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  background: #f7fcf9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.edu-section h3 {
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.edu-section p {
+  text-align: justify;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-green {
+  background-color: #2e8b57;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #256d45;
+}

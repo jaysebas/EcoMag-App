@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.landing-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.landing-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i0.wp.com/724noticias.com.co/wp-content/uploads/2024/10/magangue-celebro-su-cumpleanos-243.jpg?fit=1600%2C900&ssl=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 60px 30px;
+  border-radius: 16px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  font-size: 42px;
+  color: #90ee90;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #d0f0d0;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #2e8b57;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #256d45;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #90ee90;
+  color: #90ee90;
+}
+
+.btn-outline:hover {
+  background-color: #90ee90;
+  color: #000;
+}

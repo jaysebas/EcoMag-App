@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>EcoMag App - Registro</title>
-  <link rel="stylesheet" href="stylesignup.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECOMAG - Bienvenido</title>
+  <link rel="stylesheet" href="landing.css">
 </head>
-
 <body>
-  <div class="container">
-    <h1 class="logo">EcoMagApp</h1>
-    <p class="subtitle">Tu herramienta para una Magangué más limpia</p>
+  <div class="landing-container">
+    <div class="overlay">
+      <h1 class="logo">🌿 ECOMAG</h1>
+      <p class="tagline">Por un Magangué limpio, educado y consciente</p>
 
-    <h2>Crea una cuenta</h2>
-    <p class="subtitle">Únete al cambio por una Magangué más limpia</p>
+      <div class="description">
+        <p>
+          <strong>ECOMAG</strong> es una plataforma ciudadana que busca transformar la gestión de residuos sólidos en Magangué. A través de la educación ambiental, la participación comunitaria y el seguimiento inteligente del reciclaje, construimos juntos un futuro más verde para nuestra ciudad.
+        </p>
+        <p>
+          Únete para reportar puntos críticos, aprender sobre reciclaje y ganar recompensas por tu compromiso ecológico.
+        </p>
+      </div>
 
-    <form action="main.html" method="get">
-      
-      <input type="text" placeholder="Nombre completo" required>
-      <input type="email" placeholder="Correo electrónico" required>
-      <input type="password" placeholder="Contraseña" required>
-      <input type="password" placeholder="Confirmar contraseña" required>
-      <button type="submit" class="btn-green">Crear Cuenta</button>
-    </form>
-
-    <div class="divider">o</div>
-
-    <button class="btn-google">Continuar con Google</button>
-
-    <p class="terms">
-      Al hacer clic en continuar, aceptas nuestros 
-      <a href="#">Términos de Servicio</a> y 
-      <a href="#">Política de Privacidad</a>.
-    </p>
-
-    <p class="terms">
-      ¿Ya tienes cuenta? <a href="signin.html">Inicia Sesión</a>
-    </p>
+      <div class="btn-group">
+        <a href="signup.html" class="btn btn-outline">Crear Cuenta</a>
+        <a href="signin.html" class="btn btn-outline">Iniciar Sesión</a>
+      </div>
+    </div>
   </div>
 </body>
 </html>

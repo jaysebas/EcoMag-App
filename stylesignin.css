@@ -1,83 +1,81 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e6f7ee;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 400px;
-    background-color: #ffffff;
-    padding: 40px 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    border: 1px solid #ccead9;
-  }
-  
-  .logo {
-    color: #2e8b57;
-    font-size: 30px;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .subtitle {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
-  h2 {
-    color: #2e8b57;
-    margin-bottom: 10px;
-  }
-  
-  form input {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 15px;
-    box-sizing: border-box;
-  }
-  
-  .btn-green {
-    width: 100%;
-    padding: 12px;
-    background-color: #2e8b57;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-green:hover {
-    background-color: #256d45;
-  }
-  
-  .terms {
-    font-size: 13px;
-    margin-top: 20px;
-  }
-  
-  .terms a {
-    color: #2e8b57;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .terms a:hover {
-    text-decoration: underline;
-  }
-  
-  
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  background-color: #e6f7ee;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 1px solid #ccead9;
+}
+
+.logo {
+  color: #2e8b57;
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.btn-green {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-green:hover {
+  background-color: #256d45;
+}
+
+.terms {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.terms a {
+  color: #2e8b57;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}

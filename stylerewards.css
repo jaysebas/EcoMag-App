@@ -1,81 +1,84 @@
-/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Tipografía y fondo general */
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2fdf5;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  /* Encabezado */
-  .container {
-    text-align: center;
-    padding: 40px 20px 20px;
-  }
-  
-  .logo {
-    font-size: 36px;
-    font-weight: bold;
-    color: #2e8b57;
-    margin-bottom: 10px;
-  }
-  
-  .subtitle {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
-  /* Botón de regreso */
-  .btn-green {
-    display: inline-block;
-    margin: 30px auto;
-    padding: 12px 20px;
-    background-color: #2e8b57;
-    color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-green:hover {
-    background-color: #256d45;
-  }
-  
-  /* Caja de recompensas */
-  .reward-box {
-    max-width: 500px;
-    margin: 30px auto;
-    padding: 25px;
-    background: #eafaf0;
-    border: 2px solid #2e8b57;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .reward-box h2 {
-    color: #2e8b57;
-    margin-bottom: 10px;
-  }
-  
-  .reward-box p {
-    margin-bottom: 15px;
-  }
-  
-  .reward-box ul {
-    text-align: left;
-    margin-top: 15px;
-    padding-left: 20px;
-  }
-  
-  .reward-box ul li {
-    margin: 8px 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.logo {
+  font-size: 36px;
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.reward-box {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  background: #eafaf0;
+  border: 2px solid #2e8b57;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reward-box h2 {
+  color: #2e8b57;
+  margin-bottom: 15px;
+}
+
+.reward-box p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.reward-box ul {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.reward-box ul li {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-green {
+  background-color: #2e8b57;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #256d45;
+}
