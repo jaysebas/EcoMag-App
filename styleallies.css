@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #eaf6ec;
+    color: #333;
+  }
+  
+  .allies-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .allies-container h2 {
+    color: #237a3b;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .allies-container p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .allies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(34, 139, 34, 0.1);
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    transition: transform 0.2s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(34, 139, 34, 0.2);
+  }
+  
+  .card img {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+  }
+  
+  .card .info h3 {
+    margin: 0;
+    color: #207532;
+    font-size: 1.2rem;
+  }
+  
+  .card .info p {
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .btn-back {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #207532;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-back:hover {
+    background-color: #185a28;
+  }
+  
